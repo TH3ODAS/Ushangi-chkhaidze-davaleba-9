@@ -59,10 +59,9 @@
 .t-b{
     display: flex;
     flex-direction: column;
-    height: ;
-    width: 235px;
     margin-left: 100px;
-    margin-right: 83px;
+    margin-right: 383px;
+    flex-wrap: wrap;
 }
 h3{
     color: #636060;
@@ -80,18 +79,20 @@ p{
     color: #636060;
     font-size: 20px;
     font-family: Helvetica;
+    width: 235px;
     }
 .image-box1{
     display: flex;
-    width: 924px;
+    width: 286px;
     justify-content: ;
     flex-direction: column;
+    margin-right: 66px;
     
 }
 .all{
     display: flex;
-    flex-wrap: wrap;
 
+    
 }
 h1{
     color: #343232;
@@ -103,6 +104,8 @@ h4{
     color: #636060;
     font-size: 18px;
     font-family: Helvetica;
+    width: 286px;
+    margin-bottom: 56px;
 }
 .RC1,.RC2,.RC3,.RC4,.RC5,.RC6{
     margin-bottom: 23px;
@@ -110,9 +113,6 @@ h4{
     height: 195px;
 }
 .info{
-    display: flex;
-    flex-direction: row;
+    display: flex ;
     flex-wrap: wrap;
-    width: 563;
-    height: 680;
 }
